@@ -1,0 +1,35 @@
+{
+  "name": "xb-request",
+  "version": "1.0.0",
+  "author": "xb",
+  "description": "web request and jsBridge client toolkit",
+  "keywords": [
+    "utils",
+    "request",
+    "axios",
+    "native"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xxx/xb-request"
+  },
+  "license": "ISC",
+  "homepage": "",
+  "bugs": "https://github.com/xxx/xb-request/issues",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.2.2",
+    "lodash-es": "^4.17.21",
+    "mobile-detect": "^1.4.5",
+    "query-string": "^8.1.0"
+  },
+  "devDependencies": {
+    "axios": "^1.2.2",
+    "lodash-es": "^4.17.21",
+    "mobile-detect": "^1.4.5",
+    "query-string": "^8.1.0"
+  }
+}
