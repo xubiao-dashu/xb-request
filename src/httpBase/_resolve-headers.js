@@ -1,4 +1,4 @@
-import { info } from '@/utils/dev/logger'
+import { info } from '../utils/dev/logger'
 import _clearUpHeaders from './_clear-up-headers'
 
 const TAG = 'resolveHeaders'

@@ -1,6 +1,6 @@
 // https://medium.com/starbugs/the-correct-way-to-import-lodash-libraries-bdf613235927
 import { isEmpty } from 'lodash-es'
-import { info } from '@/utils/dev/logger'
+import { info } from '../utils/dev/logger'
 import resolveHeaders from './_resolve-headers'
 
 const TAG = 'resolveConfig'

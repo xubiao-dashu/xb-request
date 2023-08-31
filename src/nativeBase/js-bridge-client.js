@@ -6,7 +6,7 @@ import {
   isString,
   isUndefined,
 } from 'lodash-es'
-import { infos, warns } from '@/utils/dev/logger'
+import { infos, warns } from '../utils/dev/logger'
 import jsMobileDetect from './js-mobile-detect'
 import JSBridgeError, {
   CODE_CMD_ERR,
@@ -265,13 +265,13 @@ class JSBridgeClient {
   }
 }
 
-// /**
-//  * 导出工厂方法
-//  * @param options 在创建请求模块的时候进行整合，应用级别
-//  * @returns {HttpclientModule}
-//  */
-// export function createJSBridgeClient(options) {
-//   return new JSBridgeClient(options)
-// }
+/**
+ * 导出工厂方法
+ * @param options 在创建请求模块的时候进行整合，应用级别
+ * @returns {HttpclientModule}
+ */
+export function createJSBridgeClient(options) {
+  return new JSBridgeClient(options)
+}
 
 export default JSBridgeClient

@@ -1,4 +1,4 @@
-import { info } from '@/utils/dev/logger'
+import { info } from '../utils/dev/logger'
 
 const TAG = '_def_interceptor_for_resp'
 

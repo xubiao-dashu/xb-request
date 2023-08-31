@@ -1,5 +1,6 @@
 import HttpclientModule from "./src/httpBase/httpclient-module";
 import JSBridgeClient from "./src/nativeBase/js-bridge-client";
+import ClientNative from "./src/nativeBase/base-module"
 
 /**
  * 导出HttpclientModule工厂方法
@@ -25,4 +26,14 @@ export function createJSBridgeClient({
     nativeContextName,
     onFulfilled4Resp,
   });
+}
+
+/**
+ * 简化JSBridgeClient调用 注入createJSBridgeClientObj即可 内部已提供方法直接调用
+ * @param {*} createJSBridgeClientObj 实例对象
+ * @param {*} eventName 事件名
+ * @returns 
+ */
+export function createClientNative(createJSBridgeClientObj, eventName) {
+  return new ClientNative(createJSBridgeClientObj, eventName);
 }
