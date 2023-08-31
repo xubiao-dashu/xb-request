@@ -1,21 +1,22 @@
 {
   "name": "xb-request",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "author": "xb",
   "description": "web request and jsBridge client toolkit",
   "keywords": [
-    "utils",
+    "hybrid",
     "request",
     "axios",
-    "native"
+    "native",
+    "jsBridge"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/xxx/xb-request"
+    "url": "https://github.com/xubiao-dashu/xb-request.git"
   },
   "license": "ISC",
   "homepage": "",
-  "bugs": "https://github.com/xxx/xb-request/issues",
+  "bugs": "https://github.com/xubiao-dashu/xb-request/issues",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
