@@ -1,6 +1,6 @@
 {
   "name": "xb-request",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "xb",
   "description": "web request and jsBridge client toolkit",
   "keywords": [
