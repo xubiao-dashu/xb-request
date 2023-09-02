@@ -91,7 +91,7 @@ class BaseModule {
    * 1、针对发起调用前的检查
    * @param error
    */
-  static #handlerBaseErr(error) {r
+  static #handlerBaseErr(error) {
     if (isJSBridgeError(error)) {
       warns('客户端桥接错误', error)
     }
