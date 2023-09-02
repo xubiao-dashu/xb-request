@@ -31,8 +31,8 @@ const jsBridgeOptions = {
   // native上下文名称
   nativeContextName: "testName",
   // 调用成功回调 可进行数据处理和加工后返回promise
-  cb: (res) => {
-    console.log("cb-res:", res);
+  onFulfilled4Resp: (res) => {
+    console.log("onFulfilled4Resp-res:", res);
     return Promise.resolve(res);
   },
 };

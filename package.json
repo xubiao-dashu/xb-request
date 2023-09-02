@@ -1,6 +1,6 @@
 {
   "name": "xb-request",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "xb",
   "description": "web request and jsBridge client toolkit：提供给 Web 端 和 Native 端双向通信的 JSSDK",
   "keywords": [
